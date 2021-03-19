@@ -1,9 +1,10 @@
 let output = document.querySelector("#output ul");
 let element = document.querySelector("#weather-icon ul");
-console.log(output);
+// console.log(output);
 
 function buttonClickGET() {
     var query = document.getElementById("queryloc").value;
+    $("input[type=text]").val("");
     // console.log(query);
     //récupération lat et long par le nom de la ville
     var myurl = 'https://api.opencagedata.com/geocode/v1/json?q='+query+'&key=2cc3e4d545f54367a2aa2141eb1337d0';
