@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Titre de la page</title>
+  <meta charset="utf-8">
+  <link href = "css/main.css" rel = "stylesheet" type = "text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Weather app</h1>
+
+        <div class="bloc-info-logo">
+            <!-- My form -->
+            <div id="form">
+                <input id="queryloc" type="text" placeholder="Add a city"/>
+                <button id="button" onclick="buttonClickGET()">Submit</button>
+            </div>
+        </div>
+
+        <!-- Show meteo -->
+        <div class='jour-prevision-bloc'>
+            <div class="zone_meteo">
+                <div id="output"><ul></ul></div>
+                <div id="weather-icon"><ul></ul></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'action_manbold';
+    src: url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.eot');
+    src: url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.woff') format('woff'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+    background: linear-gradient(45deg, #1068b6, #ec60a6);
+    height: 100vh;
+    text-align: center;
+}
+
+
+h1 {
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    font-family: 'action_manbold'
+}
+.bloc-info-logo{
+    text-align: center;
+}
+
+#form{
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#queryloc{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    background-color: #2b53bea6;
+	border: 1px solid #2c90c6;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#output{
+    height: 40px;
+}
+#weather-icon{
+    height: 100px;
+}
+ul li {
+    display: inline;
+    padding: 70px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}

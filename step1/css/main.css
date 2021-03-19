@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'action_manbold';
+    src: url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.eot');
+    src: url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.woff') format('woff'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('font/web/actionman_bold_macroman/Action_Man_Bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'roboto-regular';
+    src: url('font/Roboto-Regular.ttf') format('ttf');
+}
+body{
+    background-image: url(weathericons/degrade.jpg);
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 45px;
+    font-family: 'action_manbold';
+}
+
+/* Icons */
+
+.img{
+    width: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* meteo */
+
+#form{
+    margin: auto;
+    width: 200px;
+}
+#queryloc{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    background-color: #2b53bea6;
+	border: 1px solid #2c90c6;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#zone_meteo{
+    margin: auto;
+    width: 200px;
+    margin-top: 30px;
+}
+#output{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
